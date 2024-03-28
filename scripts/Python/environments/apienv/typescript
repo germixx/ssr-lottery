@@ -1,0 +1,570 @@
+Script started on 2022-10-19 20:41:27-04:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="108" LINES="35"]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienvjgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv$ ls
+[?2004l[0m[01;34mbin[0m  [01;34minclude[0m  index.js  [01;34mlib[0m  [01;36mlib64[0m  pyvenv.cfg  requirements.txt  [01;34mscrape[0m  [01;34mscripts[0m  typescript
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienvjgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv$ c[Kcd scrr[Kipts/
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scriptsjgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts$ ls
+[?2004l[0m[01;34mUS[0m
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scriptsjgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts$ cd US/Florida/
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ ls
+[?2004lcash4life.py  Fantasy5.py           [0m[01;34mlogs[0m      Pick2Day.py  Pick3Eve.py  Pick5Day.py  run.py
+[01;34mdata[0m          functions.py          logs.txt  Pick2Eve.py  Pick4Day.py  Pick5Eve.py  sql.txt
+dbs.py        JackpotTriplePlay.py  lotto.py  Pick3Day.py  Pick4Eve.py  [01;34m__pycache__[0m
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ ls
+[?2004lcash4life.py  Fantasy5.py           [0m[01;34mlogs[0m      Pick2Day.py  Pick3Eve.py  Pick5Day.py  run.py
+[01;34mdata[0m          functions.py          logs.txt  Pick2Eve.py  Pick4Day.py  Pick5Eve.py  sql.txt
+dbs.py        JackpotTriplePlay.py  lotto.py  Pick3Day.py  Pick4Eve.py  [01;34m__pycache__[0m
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ cd l[K[K[K[Kpt[Kython lotto.py 
+[?2004lMySQL Database connection successful
+[<div class="gamePageNumbers">
+<div class="nextJackpot">
+<p class="regWeight">Next Jackpot:</p>
+<p>Wednesday, October 19, 2022</p>
+<p class="gameJackpot">$21 Million</p>
+</div>
+<p class="regWeight">Winning Numbers:</p>
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="2">2</span><span class="wnDash">-</span><span class="balls" title="5">5</span><span class="wnDash">-</span><span class="balls" title="10">10</span><span class="wnDash">-</span><span class="balls" title="44">44</span><span class="wnDash">-</span><span class="balls" title="49">49</span><span class="wnDash">-</span><span class="balls" title="50">50</span></p>
+<p class="lotto rolloverOrWinners">Rollover
+						</p></div>
+</div>, <div class="gamePageNumbers">
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="9">9</span><span class="wnDash">-</span><span class="balls" title="15">15</span><span class="wnDash">-</span><span class="balls" title="21">21</span><span class="wnDash">-</span><span class="balls" title="25">25</span><span class="wnDash">-</span><span class="balls" title="28">28</span><span class="wnDash">-</span><span class="balls" title="45">45</span></p>
+<p class="lotto rolloverOrWinners">0 Winners
+						</p></div>
+</div>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+[<span class="balls" title="2">2</span>, <span class="balls" title="5">5</span>, <span class="balls" title="10">10</span>, <span class="balls" title="44">44</span>, <span class="balls" title="49">49</span>, <span class="balls" title="50">50</span>, <span class="balls" title="9">9</span>, <span class="balls" title="15">15</span>, <span class="balls" title="21">21</span>, <span class="balls" title="25">25</span>, <span class="balls" title="28">28</span>, <span class="balls" title="45">45</span>, <span class="balls" title="19">19</span>, <span class="balls" title="30">30</span>, <span class="balls" title="36">36</span>, <span class="balls" title="46">46</span>, <span class="balls" title="60">60</span>, <span class="balls pbBall" title="Powerball 25">25</span>, <span class="balls multiplier" title="x3">x3</span>, <span class="balls" title="29">29</span>, <span class="balls" title="35">35</span>, <span class="balls" title="36">36</span>, <span class="balls" title="40">40</span>, <span class="balls" title="52">52</span>, <span class="balls pbBall" title="Powerball DP 18">18</span>, <span class="balls" title="1">1</span>, <span class="balls" title="15">15</span>, <span class="balls" title="20">20</span>, <span class="balls" title="44">44</span>, <span class="balls" title="67">67</span>, <span class="balls mMillBall" title="Mega Ball 23">23</span>, <span class="balls multiplier" title="x3">x3</span>, <span class="balls" title="2">2</span>, <span class="balls" title="5">5</span>, <span class="balls" title="10">10</span>, <span class="balls" title="44">44</span>, <span class="balls" title="49">49</span>, <span class="balls" title="50">50</span>, <span class="balls" title="9">9</span>, <span class="balls" title="15">15</span>, <span class="balls" title="21">21</span>, <span class="balls" title="25">25</span>, <span class="balls" title="28">28</span>, <span class="balls" title="45">45</span>, <span class="balls" title="15">15</span>, <span class="balls" title="25">25</span>, <span class="balls" title="47">47</span>, <span class="balls" title="53">53</span>, <span class="balls" title="56">56</span>, <span class="balls c4lCBBall" title="Cash Ball 4">4</span>, <span class="balls" title="10">10</span>, <span class="balls" title="13">13</span>, <span class="balls" title="23">23</span>, <span class="balls" title="43">43</span>, <span class="balls" title="44">44</span>, <span class="balls" title="46">46</span>, <span class="balls" title="15">15</span>, <span class="balls" title="8">8</span>, <span class="balls" title="4">4</span>, <span class="balls" title="11">11</span>, <span class="balls" title="9">9</span>, <span class="balls" title="15">15</span>, <span class="balls" title="22">22</span>, <span class="balls" title="24">24</span>, <span class="balls" title="29">29</span>, <span class="balls" title="31">31</span>, <span class="balls sun"> </span>, <span class="balls" title="7">7</span>, <span class="balls" title="3">3</span>, <span class="balls" title="1">1</span>, <span class="balls" title="3">3</span>, <span class="balls" title="1">1</span>, <span class="balls moon"> </span>, <span class="balls" title="0">0</span>, <span class="balls" title="9">9</span>, <span class="balls" title="1">1</span>, <span class="balls" title="3">3</span>, <span class="balls" title="9">9</span>, <span class="balls sun"> </span>, <span class="balls" title="8">8</span>, <span class="balls" title="1">1</span>, <span class="balls" title="8">8</span>, <span class="balls" title="3">3</span>, <span class="balls moon"> </span>, <span class="balls" title="6">6</span>, <span class="balls" title="6">6</span>, <span class="balls" title="3">3</span>, <span class="balls" title="8">8</span>, <span class="balls sun"> </span>, <span class="balls" title="8">8</span>, <span class="balls" title="5">5</span>, <span class="balls" title="9">9</span>, <span class="balls moon"> </span>, <span class="balls" title="0">0</span>, <span class="balls" title="7">7</span>, <span class="balls" title="7">7</span>, <span class="balls sun"> </span>, <span class="balls" title="8">8</span>, <span class="balls" title="6">6</span>, <span class="balls moon"> </span>, <span class="balls" title="7">7</span>, <span class="balls" title="3">3</span>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ [K]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+[<div class="gamePageNumbers">
+<div class="nextJackpot">
+<p class="regWeight">Next Jackpot:</p>
+<p>Wednesday, October 19, 2022</p>
+<p class="gameJackpot">$21 Million</p>
+</div>
+<p class="regWeight">Winning Numbers:</p>
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="2">2</span><span class="wnDash">-</span><span class="balls" title="5">5</span><span class="wnDash">-</span><span class="balls" title="10">10</span><span class="wnDash">-</span><span class="balls" title="44">44</span><span class="wnDash">-</span><span class="balls" title="49">49</span><span class="wnDash">-</span><span class="balls" title="50">50</span></p>
+<p class="lotto rolloverOrWinners">Rollover
+						</p></div>
+</div>, <div class="gamePageNumbers">
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="9">9</span><span class="wnDash">-</span><span class="balls" title="15">15</span><span class="wnDash">-</span><span class="balls" title="21">21</span><span class="wnDash">-</span><span class="balls" title="25">25</span><span class="wnDash">-</span><span class="balls" title="28">28</span><span class="wnDash">-</span><span class="balls" title="45">45</span></p>
+<p class="lotto rolloverOrWinners">0 Winners
+						</p></div>
+</div>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+2
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+<div class="gamePageNumbers">
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="9">9</span><span class="wnDash">-</span><span class="balls" title="15">15</span><span class="wnDash">-</span><span class="balls" title="21">21</span><span class="wnDash">-</span><span class="balls" title="25">25</span><span class="wnDash">-</span><span class="balls" title="28">28</span><span class="wnDash">-</span><span class="balls" title="45">45</span></p>
+<p class="lotto rolloverOrWinners">0 Winners
+						</p></div>
+</div>
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+[<span class="balls" title="9">9</span>, <span class="balls" title="15">15</span>, <span class="balls" title="21">21</span>, <span class="balls" title="25">25</span>, <span class="balls" title="28">28</span>, <span class="balls" title="45">45</span>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+[<div class="gamePageNumbers">
+<div class="nextJackpot">
+<p class="regWeight">Next Jackpot:</p>
+<p>Wednesday, October 19, 2022</p>
+<p class="gameJackpot">$21 Million</p>
+</div>
+<p class="regWeight">Winning Numbers:</p>
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="2">2</span><span class="wnDash">-</span><span class="balls" title="5">5</span><span class="wnDash">-</span><span class="balls" title="10">10</span><span class="wnDash">-</span><span class="balls" title="44">44</span><span class="wnDash">-</span><span class="balls" title="49">49</span><span class="wnDash">-</span><span class="balls" title="50">50</span></p>
+<p class="lotto rolloverOrWinners">Rollover
+						</p></div>
+</div>, <div class="gamePageNumbers">
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="9">9</span><span class="wnDash">-</span><span class="balls" title="15">15</span><span class="wnDash">-</span><span class="balls" title="21">21</span><span class="wnDash">-</span><span class="balls" title="25">25</span><span class="wnDash">-</span><span class="balls" title="28">28</span><span class="wnDash">-</span><span class="balls" title="45">45</span></p>
+<p class="lotto rolloverOrWinners">0 Winners
+						</p></div>
+</div>]  is s
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+2  is s
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+<div class="gamePageNumbers">
+<div class="nextJackpot">
+<p class="regWeight">Next Jackpot:</p>
+<p>Wednesday, October 19, 2022</p>
+<p class="gameJackpot">$21 Million</p>
+</div>
+<p class="regWeight">Winning Numbers:</p>
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="2">2</span><span class="wnDash">-</span><span class="balls" title="5">5</span><span class="wnDash">-</span><span class="balls" title="10">10</span><span class="wnDash">-</span><span class="balls" title="44">44</span><span class="wnDash">-</span><span class="balls" title="49">49</span><span class="wnDash">-</span><span class="balls" title="50">50</span></p>
+<p class="lotto rolloverOrWinners">Rollover
+						</p></div>
+</div>  is s
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+[<div class="nextJackpot">
+<p class="regWeight">Next Jackpot:</p>
+<p>Wednesday, October 19, 2022</p>
+<p class="gameJackpot">$21 Million</p>
+</div>, <div class="gamePageBalls">
+<p><span class="balls" title="2">2</span><span class="wnDash">-</span><span class="balls" title="5">5</span><span class="wnDash">-</span><span class="balls" title="10">10</span><span class="wnDash">-</span><span class="balls" title="44">44</span><span class="wnDash">-</span><span class="balls" title="49">49</span><span class="wnDash">-</span><span class="balls" title="50">50</span></p>
+<p class="lotto rolloverOrWinners">Rollover
+						</p></div>]  is s
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+2  is s
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+Traceback (most recent call last):
+  File "/home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida/lotto.py", line 60, in <module>
+    print(len(gameNumb[0][0].find_all('div')),' is s')
+  File "/home/jgoolsby/api/lottery-api/scripts/Python/environments/apienv/lib/python3.10/site-packages/bs4/element.py", line 1519, in __getitem__
+    return self.attrs[key]
+KeyError: 0
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+[<div class="nextJackpot">
+<p class="regWeight">Next Jackpot:</p>
+<p>Wednesday, October 19, 2022</p>
+<p class="gameJackpot">$21 Million</p>
+</div>, <div class="gamePageBalls">
+<p><span class="balls" title="2">2</span><span class="wnDash">-</span><span class="balls" title="5">5</span><span class="wnDash">-</span><span class="balls" title="10">10</span><span class="wnDash">-</span><span class="balls" title="44">44</span><span class="wnDash">-</span><span class="balls" title="49">49</span><span class="wnDash">-</span><span class="balls" title="50">50</span></p>
+<p class="lotto rolloverOrWinners">Rollover
+						</p></div>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+<div class="nextJackpot">
+<p class="regWeight">Next Jackpot:</p>
+<p>Wednesday, October 19, 2022</p>
+<p class="gameJackpot">$21 Million</p>
+</div>
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+<div class="gamePageBalls">
+<p><span class="balls" title="2">2</span><span class="wnDash">-</span><span class="balls" title="5">5</span><span class="wnDash">-</span><span class="balls" title="10">10</span><span class="wnDash">-</span><span class="balls" title="44">44</span><span class="wnDash">-</span><span class="balls" title="49">49</span><span class="wnDash">-</span><span class="balls" title="50">50</span></p>
+<p class="lotto rolloverOrWinners">Rollover
+						</p></div>
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+[<div class="gamePageBalls">
+<p><span class="balls" title="9">9</span><span class="wnDash">-</span><span class="balls" title="15">15</span><span class="wnDash">-</span><span class="balls" title="21">21</span><span class="wnDash">-</span><span class="balls" title="25">25</span><span class="wnDash">-</span><span class="balls" title="28">28</span><span class="wnDash">-</span><span class="balls" title="45">45</span></p>
+<p class="lotto rolloverOrWinners">0 Winners
+						</p></div>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ clear
+[?2004l[H[2J[3J[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ 
+[?2004l[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ clear
+[?2004l[H[2J[3J[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ clearpython lotto.py ls[Kpython lotto.py 
+[?2004lMySQL Database connection successful
+[<span class="balls" title="9">9</span>, <span class="balls" title="15">15</span>, <span class="balls" title="21">21</span>, <span class="balls" title="25">25</span>, <span class="balls" title="28">28</span>, <span class="balls" title="45">45</span>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+[<div class="gamePageNumbers">
+<div class="nextJackpot">
+<p class="regWeight">Next Jackpot:</p>
+<p>Wednesday, October 19, 2022</p>
+<p class="gameJackpot">$21 Million</p>
+</div>
+<p class="regWeight">Winning Numbers:</p>
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="2">2</span><span class="wnDash">-</span><span class="balls" title="5">5</span><span class="wnDash">-</span><span class="balls" title="10">10</span><span class="wnDash">-</span><span class="balls" title="44">44</span><span class="wnDash">-</span><span class="balls" title="49">49</span><span class="wnDash">-</span><span class="balls" title="50">50</span></p>
+<p class="lotto rolloverOrWinners">Rollover
+						</p></div>
+</div>, <div class="gamePageNumbers">
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="9">9</span><span class="wnDash">-</span><span class="balls" title="15">15</span><span class="wnDash">-</span><span class="balls" title="21">21</span><span class="wnDash">-</span><span class="balls" title="25">25</span><span class="wnDash">-</span><span class="balls" title="28">28</span><span class="wnDash">-</span><span class="balls" title="45">45</span></p>
+<p class="lotto rolloverOrWinners">0 Winners
+						</p></div>
+</div>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ clear
+[?2004l[H[2J[3J[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ clearpython lotto.py 
+[?2004lMySQL Database connection successful
+[<div class="gamePageNumbers">
+<div class="nextJackpot">
+<p class="regWeight">Next Jackpot:</p>
+<p>Wednesday, October 19, 2022</p>
+<p class="gameJackpot">$21 Million</p>
+</div>
+<p class="regWeight">Winning Numbers:</p>
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="2">2</span><span class="wnDash">-</span><span class="balls" title="5">5</span><span class="wnDash">-</span><span class="balls" title="10">10</span><span class="wnDash">-</span><span class="balls" title="44">44</span><span class="wnDash">-</span><span class="balls" title="49">49</span><span class="wnDash">-</span><span class="balls" title="50">50</span></p>
+<p class="lotto rolloverOrWinners">Rollover
+						</p></div>
+</div>, <div class="gamePageNumbers">
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="9">9</span><span class="wnDash">-</span><span class="balls" title="15">15</span><span class="wnDash">-</span><span class="balls" title="21">21</span><span class="wnDash">-</span><span class="balls" title="25">25</span><span class="wnDash">-</span><span class="balls" title="28">28</span><span class="wnDash">-</span><span class="balls" title="45">45</span></p>
+<p class="lotto rolloverOrWinners">0 Winners
+						</p></div>
+</div>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+<div class="gamePageNumbers">
+<div class="nextJackpot">
+<p class="regWeight">Next Jackpot:</p>
+<p>Wednesday, October 19, 2022</p>
+<p class="gameJackpot">$21 Million</p>
+</div>
+<p class="regWeight">Winning Numbers:</p>
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="2">2</span><span class="wnDash">-</span><span class="balls" title="5">5</span><span class="wnDash">-</span><span class="balls" title="10">10</span><span class="wnDash">-</span><span class="balls" title="44">44</span><span class="wnDash">-</span><span class="balls" title="49">49</span><span class="wnDash">-</span><span class="balls" title="50">50</span></p>
+<p class="lotto rolloverOrWinners">Rollover
+						</p></div>
+</div>
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+[<div class="gamePageNumbers">
+<div class="nextJackpot">
+<p class="regWeight">Next Jackpot:</p>
+<p>Wednesday, October 19, 2022</p>
+<p class="gameJackpot">$21 Million</p>
+</div>
+<p class="regWeight">Winning Numbers:</p>
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="2">2</span><span class="wnDash">-</span><span class="balls" title="5">5</span><span class="wnDash">-</span><span class="balls" title="10">10</span><span class="wnDash">-</span><span class="balls" title="44">44</span><span class="wnDash">-</span><span class="balls" title="49">49</span><span class="wnDash">-</span><span class="balls" title="50">50</span></p>
+<p class="lotto rolloverOrWinners">Rollover
+						</p></div>
+</div>, <div class="gamePageNumbers">
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="9">9</span><span class="wnDash">-</span><span class="balls" title="15">15</span><span class="wnDash">-</span><span class="balls" title="21">21</span><span class="wnDash">-</span><span class="balls" title="25">25</span><span class="wnDash">-</span><span class="balls" title="28">28</span><span class="wnDash">-</span><span class="balls" title="45">45</span></p>
+<p class="lotto rolloverOrWinners">0 Winners
+						</p></div>
+</div>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+2
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+5
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+<div class="gamePageNumbers">
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="9">9</span><span class="wnDash">-</span><span class="balls" title="15">15</span><span class="wnDash">-</span><span class="balls" title="21">21</span><span class="wnDash">-</span><span class="balls" title="25">25</span><span class="wnDash">-</span><span class="balls" title="28">28</span><span class="wnDash">-</span><span class="balls" title="45">45</span></p>
+<p class="lotto rolloverOrWinners">0 Winners
+						</p></div>
+</div>
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+<div class="gamePageNumbers">
+<div class="nextJackpot">
+<p class="regWeight">Next Jackpot:</p>
+<p>Wednesday, October 19, 2022</p>
+<p class="gameJackpot">$21 Million</p>
+</div>
+<p class="regWeight">Winning Numbers:</p>
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="2">2</span><span class="wnDash">-</span><span class="balls" title="5">5</span><span class="wnDash">-</span><span class="balls" title="10">10</span><span class="wnDash">-</span><span class="balls" title="44">44</span><span class="wnDash">-</span><span class="balls" title="49">49</span><span class="wnDash">-</span><span class="balls" title="50">50</span></p>
+<p class="lotto rolloverOrWinners">Rollover
+						</p></div>
+</div>
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+9
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+9
+[<div class="gamePageBalls">
+<p><span class="balls" title="9">9</span><span class="wnDash">-</span><span class="balls" title="15">15</span><span class="wnDash">-</span><span class="balls" title="21">21</span><span class="wnDash">-</span><span class="balls" title="25">25</span><span class="wnDash">-</span><span class="balls" title="28">28</span><span class="wnDash">-</span><span class="balls" title="45">45</span></p>
+<p class="lotto rolloverOrWinners">0 Winners
+						</p></div>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+9
+[<span class="balls" title="9">9</span>, <span class="wnDash">-</span>, <span class="balls" title="15">15</span>, <span class="wnDash">-</span>, <span class="balls" title="21">21</span>, <span class="wnDash">-</span>, <span class="balls" title="25">25</span>, <span class="wnDash">-</span>, <span class="balls" title="28">28</span>, <span class="wnDash">-</span>, <span class="balls" title="45">45</span>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+9
+9
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+9
+[<div class="gamePageNumbers">
+<div class="nextJackpot">
+<p class="regWeight">Next Jackpot:</p>
+<p>Wednesday, October 19, 2022</p>
+<p class="gameJackpot">$21 Million</p>
+</div>
+<p class="regWeight">Winning Numbers:</p>
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="2">2</span><span class="wnDash">-</span><span class="balls" title="5">5</span><span class="wnDash">-</span><span class="balls" title="10">10</span><span class="wnDash">-</span><span class="balls" title="44">44</span><span class="wnDash">-</span><span class="balls" title="49">49</span><span class="wnDash">-</span><span class="balls" title="50">50</span></p>
+<p class="lotto rolloverOrWinners">Rollover
+						</p></div>
+</div>, <div class="gamePageNumbers">
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="9">9</span><span class="wnDash">-</span><span class="balls" title="15">15</span><span class="wnDash">-</span><span class="balls" title="21">21</span><span class="wnDash">-</span><span class="balls" title="25">25</span><span class="wnDash">-</span><span class="balls" title="28">28</span><span class="wnDash">-</span><span class="balls" title="45">45</span></p>
+<p class="lotto rolloverOrWinners">0 Winners
+						</p></div>
+</div>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+9
+[<span class="balls" title="2">2</span>, <span class="wnDash">-</span>, <span class="balls" title="5">5</span>, <span class="wnDash">-</span>, <span class="balls" title="10">10</span>, <span class="wnDash">-</span>, <span class="balls" title="44">44</span>, <span class="wnDash">-</span>, <span class="balls" title="49">49</span>, <span class="wnDash">-</span>, <span class="balls" title="50">50</span>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ clear
+[?2004l[H[2J[3J[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ clearpython lotto.py 
+[?2004lMySQL Database connection successful
+9
+[<span class="balls" title="2">2</span>, <span class="wnDash">-</span>, <span class="balls" title="5">5</span>, <span class="wnDash">-</span>, <span class="balls" title="10">10</span>, <span class="wnDash">-</span>, <span class="balls" title="44">44</span>, <span class="wnDash">-</span>, <span class="balls" title="49">49</span>, <span class="wnDash">-</span>, <span class="balls" title="50">50</span>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+9
+[<span class="balls" title="2">2</span>, <span class="wnDash">-</span>, <span class="balls" title="5">5</span>, <span class="wnDash">-</span>, <span class="balls" title="10">10</span>, <span class="wnDash">-</span>, <span class="balls" title="44">44</span>, <span class="wnDash">-</span>, <span class="balls" title="49">49</span>, <span class="wnDash">-</span>, <span class="balls" title="50">50</span>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+[<div class="gamePageNumbers">
+<div class="nextJackpot">
+<p class="regWeight">Next Jackpot:</p>
+<p>Wednesday, October 19, 2022</p>
+<p class="gameJackpot">$21 Million</p>
+</div>
+<p class="regWeight">Winning Numbers:</p>
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="2">2</span><span class="wnDash">-</span><span class="balls" title="5">5</span><span class="wnDash">-</span><span class="balls" title="10">10</span><span class="wnDash">-</span><span class="balls" title="44">44</span><span class="wnDash">-</span><span class="balls" title="49">49</span><span class="wnDash">-</span><span class="balls" title="50">50</span></p>
+<p class="lotto rolloverOrWinners">Rollover
+						</p></div>
+</div>, <div class="gamePageNumbers">
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="9">9</span><span class="wnDash">-</span><span class="balls" title="15">15</span><span class="wnDash">-</span><span class="balls" title="21">21</span><span class="wnDash">-</span><span class="balls" title="25">25</span><span class="wnDash">-</span><span class="balls" title="28">28</span><span class="wnDash">-</span><span class="balls" title="45">45</span></p>
+<p class="lotto rolloverOrWinners">0 Winners
+						</p></div>
+</div>]
+[<span class="balls" title="2">2</span>, <span class="wnDash">-</span>, <span class="balls" title="5">5</span>, <span class="wnDash">-</span>, <span class="balls" title="10">10</span>, <span class="wnDash">-</span>, <span class="balls" title="44">44</span>, <span class="wnDash">-</span>, <span class="balls" title="49">49</span>, <span class="wnDash">-</span>, <span class="balls" title="50">50</span>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+[<div class="gamePageNumbers">
+<div class="nextJackpot">
+<p class="regWeight">Next Jackpot:</p>
+<p>Wednesday, October 19, 2022</p>
+<p class="gameJackpot">$21 Million</p>
+</div>
+<p class="regWeight">Winning Numbers:</p>
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="2">2</span><span class="wnDash">-</span><span class="balls" title="5">5</span><span class="wnDash">-</span><span class="balls" title="10">10</span><span class="wnDash">-</span><span class="balls" title="44">44</span><span class="wnDash">-</span><span class="balls" title="49">49</span><span class="wnDash">-</span><span class="balls" title="50">50</span></p>
+<p class="lotto rolloverOrWinners">Rollover
+						</p></div>
+</div>, <div class="gamePageNumbers">
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="9">9</span><span class="wnDash">-</span><span class="balls" title="15">15</span><span class="wnDash">-</span><span class="balls" title="21">21</span><span class="wnDash">-</span><span class="balls" title="25">25</span><span class="wnDash">-</span><span class="balls" title="28">28</span><span class="wnDash">-</span><span class="balls" title="45">45</span></p>
+<p class="lotto rolloverOrWinners">0 Winners
+						</p></div>
+</div>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ clear
+[?2004l[H[2J[3J[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ clearpython lotto.py 
+[?2004lMySQL Database connection successful
+[<div class="gamePageNumbers">
+<div class="nextJackpot">
+<p class="regWeight">Next Jackpot:</p>
+<p>Wednesday, October 19, 2022</p>
+<p class="gameJackpot">$21 Million</p>
+</div>
+<p class="regWeight">Winning Numbers:</p>
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="2">2</span><span class="wnDash">-</span><span class="balls" title="5">5</span><span class="wnDash">-</span><span class="balls" title="10">10</span><span class="wnDash">-</span><span class="balls" title="44">44</span><span class="wnDash">-</span><span class="balls" title="49">49</span><span class="wnDash">-</span><span class="balls" title="50">50</span></p>
+<p class="lotto rolloverOrWinners">Rollover
+						</p></div>
+</div>, <div class="gamePageNumbers">
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="9">9</span><span class="wnDash">-</span><span class="balls" title="15">15</span><span class="wnDash">-</span><span class="balls" title="21">21</span><span class="wnDash">-</span><span class="balls" title="25">25</span><span class="wnDash">-</span><span class="balls" title="28">28</span><span class="wnDash">-</span><span class="balls" title="45">45</span></p>
+<p class="lotto rolloverOrWinners">0 Winners
+						</p></div>
+</div>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+[<div class="gamePageNumbers">
+<div class="nextJackpot">
+<p class="regWeight">Next Jackpot:</p>
+<p>Wednesday, October 19, 2022</p>
+<p class="gameJackpot">$21 Million</p>
+</div>
+<p class="regWeight">Winning Numbers:</p>
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="2">2</span><span class="wnDash">-</span><span class="balls" title="5">5</span><span class="wnDash">-</span><span class="balls" title="10">10</span><span class="wnDash">-</span><span class="balls" title="44">44</span><span class="wnDash">-</span><span class="balls" title="49">49</span><span class="wnDash">-</span><span class="balls" title="50">50</span></p>
+<p class="lotto rolloverOrWinners">Rollover
+						</p></div>
+</div>, <div class="gamePageNumbers">
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="9">9</span><span class="wnDash">-</span><span class="balls" title="15">15</span><span class="wnDash">-</span><span class="balls" title="21">21</span><span class="wnDash">-</span><span class="balls" title="25">25</span><span class="wnDash">-</span><span class="balls" title="28">28</span><span class="wnDash">-</span><span class="balls" title="45">45</span></p>
+<p class="lotto rolloverOrWinners">0 Winners
+						</p></div>
+</div>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+Traceback (most recent call last):
+  File "/home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida/lotto.py", line 77, in <module>
+    print(gameNumb[1][1])
+  File "/home/jgoolsby/api/lottery-api/scripts/Python/environments/apienv/lib/python3.10/site-packages/bs4/element.py", line 1519, in __getitem__
+    return self.attrs[key]
+KeyError: 1
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+<div class="gamePageNumbers">
+<p>Saturday, October 15, 2022</p>
+<div class="gamePageBalls">
+<p><span class="balls" title="9">9</span><span class="wnDash">-</span><span class="balls" title="15">15</span><span class="wnDash">-</span><span class="balls" title="21">21</span><span class="wnDash">-</span><span class="balls" title="25">25</span><span class="wnDash">-</span><span class="balls" title="28">28</span><span class="wnDash">-</span><span class="balls" title="45">45</span></p>
+<p class="lotto rolloverOrWinners">0 Winners
+						</p></div>
+</div>
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+[<p>Saturday, October 15, 2022</p>, <p><span class="balls" title="9">9</span><span class="wnDash">-</span><span class="balls" title="15">15</span><span class="wnDash">-</span><span class="balls" title="21">21</span><span class="wnDash">-</span><span class="balls" title="25">25</span><span class="wnDash">-</span><span class="balls" title="28">28</span><span class="wnDash">-</span><span class="balls" title="45">45</span></p>, <p class="lotto rolloverOrWinners">0 Winners
+						</p>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+[<p class="regWeight">Next Jackpot:</p>, <p>Wednesday, October 19, 2022</p>, <p class="gameJackpot">$21 Million</p>, <p class="regWeight">Winning Numbers:</p>, <p>Saturday, October 15, 2022</p>, <p><span class="balls" title="2">2</span><span class="wnDash">-</span><span class="balls" title="5">5</span><span class="wnDash">-</span><span class="balls" title="10">10</span><span class="wnDash">-</span><span class="balls" title="44">44</span><span class="wnDash">-</span><span class="balls" title="49">49</span><span class="wnDash">-</span><span class="balls" title="50">50</span></p>, <p class="lotto rolloverOrWinners">Rollover
+						</p>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+[<p class="regWeight">Next Jackpot:</p>, <p>Wednesday, October 19, 2022</p>, <p class="gameJackpot">$21 Million</p>, <p class="regWeight">Winning Numbers:</p>, <p>Saturday, October 15, 2022</p>, <p><span class="balls" title="2">2</span><span class="wnDash">-</span><span class="balls" title="5">5</span><span class="wnDash">-</span><span class="balls" title="10">10</span><span class="wnDash">-</span><span class="balls" title="44">44</span><span class="wnDash">-</span><span class="balls" title="49">49</span><span class="wnDash">-</span><span class="balls" title="50">50</span></p>, <p class="lotto rolloverOrWinners">Rollover
+						</p>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+<p class="regWeight">Next Jackpot:</p>
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+<p>Saturday, October 15, 2022</p>
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+<p><span class="balls" title="2">2</span><span class="wnDash">-</span><span class="balls" title="5">5</span><span class="wnDash">-</span><span class="balls" title="10">10</span><span class="wnDash">-</span><span class="balls" title="44">44</span><span class="wnDash">-</span><span class="balls" title="49">49</span><span class="wnDash">-</span><span class="balls" title="50">50</span></p>
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+<p>Saturday, October 15, 2022</p>
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+Saturday, October 15, 2022
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+[<p class="regWeight">Next Jackpot:</p>, <p>Wednesday, October 19, 2022</p>, <p class="gameJackpot">$21 Million</p>, <p class="regWeight">Winning Numbers:</p>, <p>Saturday, October 15, 2022</p>, <p><span class="balls" title="2">2</span><span class="wnDash">-</span><span class="balls" title="5">5</span><span class="wnDash">-</span><span class="balls" title="10">10</span><span class="wnDash">-</span><span class="balls" title="44">44</span><span class="wnDash">-</span><span class="balls" title="49">49</span><span class="wnDash">-</span><span class="balls" title="50">50</span></p>, <p class="lotto rolloverOrWinners">Rollover
+						</p>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+[<p>Saturday, October 15, 2022</p>, <p><span class="balls" title="9">9</span><span class="wnDash">-</span><span class="balls" title="15">15</span><span class="wnDash">-</span><span class="balls" title="21">21</span><span class="wnDash">-</span><span class="balls" title="25">25</span><span class="wnDash">-</span><span class="balls" title="28">28</span><span class="wnDash">-</span><span class="balls" title="45">45</span></p>, <p class="lotto rolloverOrWinners">0 Winners
+						</p>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+Saturday, October 15, 2022
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+Saturday, October 15, 2022 Saturday, October 15, 2022
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+Saturday, October 15, 2022 Saturday, October 15, 2022
+asdadadadas
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python tripl[K[K[K[K[Kjackpo[K[K[K[K[K[K[K[K[K[K[K[K[KJackpo[K[K[K[K[K[Kls
+[?2004lcash4life.py  [0m[01;34mdata[0m  dbs.py  Fantasy5.py  functions.py  JackpotTriplePlay.py  [01;34mlogs[0m  logs.txt  lotto.py  Pick2Day.py  Pick2Eve.py  Pick3Day.py  Pick3Eve.py  Pick4Day.py  Pick4Eve.py  Pick5Day.py  Pick5Eve.py  [01;34m__pycache__[0m  run.py  sql.txt
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python JackpotTriplePlay.py 
+[?2004lMySQL Database connection successful
+MySQL Database connection successful
+Tuesday, October 18, 2022
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python JackpotTriplePlay.py ls[Kpython lotto.py 
+[?2004lMySQL Database connection successful
+asdadadadas
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+MySQL Database connection successful
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+MySQL Database connection successful
+{'result': {'date': '2022-10-15 00:00:00', 'numbers': [{'n1': '2', 'n2': '-', 'n3': '5', 'n4': '-', 'n5': '10', 'n6': '-'}], 'sequence': '2---5---10--'}}
+9---15---21--
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+MySQL Database connection successful
+{'result': {'date': '2022-10-15 00:00:00', 'numbers': [{'n1': '2', 'n2': '-', 'n3': '5', 'n4': '-', 'n5': '10', 'n6': '-'}], 'sequence': '2---5---10--'}}
+[<span class="balls" title="9">9</span>, <span class="wnDash">-</span>, <span class="balls" title="15">15</span>, <span class="wnDash">-</span>, <span class="balls" title="21">21</span>, <span class="wnDash">-</span>, <span class="balls" title="25">25</span>, <span class="wnDash">-</span>, <span class="balls" title="28">28</span>, <span class="wnDash">-</span>, <span class="balls" title="45">45</span>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+MySQL Database connection successful
+{'result': {'date': '2022-10-15 00:00:00', 'numbers': [{'n1': '2', 'n2': '-', 'n3': '5', 'n4': '-', 'n5': '10', 'n6': '-'}], 'sequence': '2---5---10--'}}
+[<span class="balls" title="9">9</span>, <span class="wnDash">-</span>, <span class="balls" title="15">15</span>, <span class="wnDash">-</span>, <span class="balls" title="21">21</span>, <span class="wnDash">-</span>, <span class="balls" title="25">25</span>, <span class="wnDash">-</span>, <span class="balls" title="28">28</span>, <span class="wnDash">-</span>, <span class="balls" title="45">45</span>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+MySQL Database connection successful
+[<span class="balls" title="2">2</span>, <span class="wnDash">-</span>, <span class="balls" title="5">5</span>, <span class="wnDash">-</span>, <span class="balls" title="10">10</span>, <span class="wnDash">-</span>, <span class="balls" title="44">44</span>, <span class="wnDash">-</span>, <span class="balls" title="49">49</span>, <span class="wnDash">-</span>, <span class="balls" title="50">50</span>]
+{'result': {'date': '2022-10-15 00:00:00', 'numbers': [{'n1': '2', 'n2': '-', 'n3': '5', 'n4': '-', 'n5': '10', 'n6': '-'}], 'sequence': '2---5---10--'}}
+[<span class="balls" title="9">9</span>, <span class="wnDash">-</span>, <span class="balls" title="15">15</span>, <span class="wnDash">-</span>, <span class="balls" title="21">21</span>, <span class="wnDash">-</span>, <span class="balls" title="25">25</span>, <span class="wnDash">-</span>, <span class="balls" title="28">28</span>, <span class="wnDash">-</span>, <span class="balls" title="45">45</span>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+MySQL Database connection successful
+[<span class="balls" title="2">2</span>, <span class="wnDash">-</span>, <span class="balls" title="5">5</span>, <span class="wnDash">-</span>, <span class="balls" title="10">10</span>, <span class="wnDash">-</span>, <span class="balls" title="44">44</span>, <span class="wnDash">-</span>, <span class="balls" title="49">49</span>, <span class="wnDash">-</span>, <span class="balls" title="50">50</span>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+MySQL Database connection successful
+[<span class="balls" title="2">2</span>, <span class="wnDash">-</span>, <span class="balls" title="5">5</span>, <span class="wnDash">-</span>, <span class="balls" title="10">10</span>, <span class="wnDash">-</span>, <span class="balls" title="44">44</span>, <span class="wnDash">-</span>, <span class="balls" title="49">49</span>, <span class="wnDash">-</span>, <span class="balls" title="50">50</span>]
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+MySQL Database connection successful
+2-5-10-44-49-50
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+MySQL Database connection successful
+{'result': {'date': '2022-10-15 00:00:00', 'numbers': [{'n1': '2', 'n2': '5', 'n3': '10', 'n4': '44', 'n5': '49', 'n6': '50'}], 'sequence': '2-5-10-44-49-50'}}
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+MySQL Database connection successful
+{'result': {'date': '2022-10-15 00:00:00', 'numbers': [{'n1': '9', 'n2': '15', 'n3': '21', 'n4': '25', 'n5': '28', 'n6': '45'}], 'sequence': '9-15-21-25-28-45'}}
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+MySQL Database connection successful
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ python lotto.py 
+[?2004lMySQL Database connection successful
+MySQL Database connection successful
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ crontab- [K[K -e
+[?2004l[?2004h[?1049h[22;0;0t[1;61r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[59;112H(B[0;7m[ Reading... ](B[m[59;111H(B[0;7m[ Read 40 lines ](B[m[H(B[0;7m  GNU nano 6.2                                                                                             /tmp/crontab.LDbGU6/crontab                                                                                                       [1;236H(B[m[60d(B[0;7m^G(B[m Help[60;19H(B[0;7m^O(B[m Write Out[37G(B[0;7m^W(B[m Where Is[55G(B[0;7m^K(B[m Cut[60;73H(B[0;7m^T(B[m Execute[60;91H(B[0;7m^C(B[m Location[109G(B[0;7mM-U(B[m Undo[60;127H(B[0;7mM-A(B[m Set Mark[145G(B[0;7mM-](B[m To Bracket    (B[0;7mM-Q(B[m Previous[181G(B[0;7m^B(B[m Back[60;199H(B[0;7m^◂(B[m Prev Word[217G(B[0;7m^A(B[m Home[61d(B[0;7m^X(B[m Exit[61;19H(B[0;7m^R(B[m Read File[37G(B[0;7m^\(B[m Replace[61;55H(B[0;7m^U(B[m Paste[61;73H(B[0;7m^J(B[m Justify[61;91H(B[0;7m^/(B[m Go To Line     (B[0;7mM-E(B[m Redo[61;127H(B[0;7mM-6(B[m Copy[61;145H(B[0;7m^Q(B[m Where Was[163G(B[0;7mM-W(B[m Next[61;181H(B[0;7m^F(B[m Forward[61;199H(B[0;7m^▸(B[m Next Word[217G(B[0;7m^E(B[m End[2d[36m# Edit this file to introduce tasks to be run by cron.[3d# [4d# Each task to run has to be defined through a single line[5d# indicating with different fields when the task will be run[6d# and what command to run for the task[7d# [8d# To define the time you can provide concrete values for[9d# minute (m), hour (h), day of month (dom), month (mon),[10d# and day of week (dow) or use '*' in these fields (for 'any').[11d# [12d# Notice that tasks will be started based on the cron's system[13d# daemon's notion of time and timezones.[14d# [15d# Output of the crontab jobs (including errors) is sent through[16d# email to the user the crontab file belongs to (unless redirected).[17d# [18d# For example, you can run a backup of all your user accounts[19d# at 5 a.m every week with:[20d# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/[21d# [22d# For more information see the manual pages of crontab(5) and cron(8)[23d# [24d# m h  dom mon dow   command[26d# 0 1 * * * /api/lottery-api/scripts/Python/environments/apienv/bin/python /api/lottery-api/scripts/Python/environments/apienv/scripts/US/Florida/Fantasy5.py[28d# Fantasy/Cash4Life run every morning at 1am[29d[39m(B[m0 1 * * * /home/jgoolsby/api/lottery-api/scripts/Python/environments/apienv/bin/python /home/jgoolsby/api/lottery-api/scripts/Python/environments/apienv/scripts/US/Florida/Fantasy5.py[30d0 1 * * * /home/jgoolsby/api/lottery-api/scripts/Python/environments/apienv/bin/python /home/jgoolsby/api/lottery-api/scripts/Python/environments/apienv/scripts/US/Florida/cash4life.py[32d[36m# Pick 2/3/4/5 Scripts Run every hour[33d[39m(B[m0 * * * * /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/bin/python /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida/Pick2Day.py[34d0 * * * * /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/bin/python /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida/Pick2Eve.py[35d0 * * * * /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/bin/python /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida/Pick3Day.py[36d0 * * * * /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/bin/python /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida/Pick3Eve.py[37d0 * * * * /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/bin/python /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida/Pick4Day.py[38d0 * * * * /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/bin/python /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida/Pick4Eve.py[39d0 * * * * /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/bin/python /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida/Pick5Day.py[40d0 * * * * /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/bin/python /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida/Pick5Eve.py[41d0 * * * * /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/bin/python /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida/JackpotTriplePlay.py[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[59d[K[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h[31d[?25l[?12l[?25h[32d[?25l[?12l[?25h[33d[?25l[?12l[?25h[34d[?25l[?12l[?25h[35d[?25l[?12l[?25h[36d[?25l[?12l[?25h[37d[?25l[?12l[?25h[38d[?25l[?12l[?25h[39d[?25l[?12l[?25h[40d[?25l[?12l[?25h[41d[?25l[?12l[?25h[42d[?25l[?12l[?25h[41;185H[?25l[?12l[?25h[40;176H[?25l[1;136H(B[0;7m*[236G(B[m[40;176H[?12l[?25h(B[0;7m<(B[m[54P[40;122H[?25l[?12l[?25h0 * * * * /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/bin/python /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida/Pick5Eve.py0 * * * * /home/jgoolsby/ssr-lottery/scripts/Python/environme(B[0;7m>[41;185H(B[m[?25l[59d(B[0;7mSave modified buffer?                                                                                                                                                                                                                        [60;1H Y(B[m Yes[K[61d(B[0;7m N(B[m No  [61;17H(B[0;7m^C(B[m Cancel[K[59;23H[?12l[?25h[?25l[J[61d[?12l[?25h[61;1H[?1049l[23;0;0t[?1l>[?2004lNo modification made
+[?2004h]0;jgoolsby@ipa-bro: ~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Floridajgoolsby@ipa-bro:~/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida$ crontab -e
+[?2004l[?2004h[?1049h[22;0;0t[1;61r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[59;112H(B[0;7m[ Reading... ](B[m[59;111H(B[0;7m[ Read 40 lines ](B[m[H(B[0;7m  GNU nano 6.2                                                                                             /tmp/crontab.scrUPe/crontab                                                                                                       [1;236H(B[m[60d(B[0;7m^G(B[m Help[60;19H(B[0;7m^O(B[m Write Out[37G(B[0;7m^W(B[m Where Is[55G(B[0;7m^K(B[m Cut[60;73H(B[0;7m^T(B[m Execute[60;91H(B[0;7m^C(B[m Location[109G(B[0;7mM-U(B[m Undo[60;127H(B[0;7mM-A(B[m Set Mark[145G(B[0;7mM-](B[m To Bracket    (B[0;7mM-Q(B[m Previous[181G(B[0;7m^B(B[m Back[60;199H(B[0;7m^◂(B[m Prev Word[217G(B[0;7m^A(B[m Home[61d(B[0;7m^X(B[m Exit[61;19H(B[0;7m^R(B[m Read File[37G(B[0;7m^\(B[m Replace[61;55H(B[0;7m^U(B[m Paste[61;73H(B[0;7m^J(B[m Justify[61;91H(B[0;7m^/(B[m Go To Line     (B[0;7mM-E(B[m Redo[61;127H(B[0;7mM-6(B[m Copy[61;145H(B[0;7m^Q(B[m Where Was[163G(B[0;7mM-W(B[m Next[61;181H(B[0;7m^F(B[m Forward[61;199H(B[0;7m^▸(B[m Next Word[217G(B[0;7m^E(B[m End[2d[36m# Edit this file to introduce tasks to be run by cron.[3d# [4d# Each task to run has to be defined through a single line[5d# indicating with different fields when the task will be run[6d# and what command to run for the task[7d# [8d# To define the time you can provide concrete values for[9d# minute (m), hour (h), day of month (dom), month (mon),[10d# and day of week (dow) or use '*' in these fields (for 'any').[11d# [12d# Notice that tasks will be started based on the cron's system[13d# daemon's notion of time and timezones.[14d# [15d# Output of the crontab jobs (including errors) is sent through[16d# email to the user the crontab file belongs to (unless redirected).[17d# [18d# For example, you can run a backup of all your user accounts[19d# at 5 a.m every week with:[20d# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/[21d# [22d# For more information see the manual pages of crontab(5) and cron(8)[23d# [24d# m h  dom mon dow   command[26d# 0 1 * * * /api/lottery-api/scripts/Python/environments/apienv/bin/python /api/lottery-api/scripts/Python/environments/apienv/scripts/US/Florida/Fantasy5.py[28d# Fantasy/Cash4Life run every morning at 1am[29d[39m(B[m0 1 * * * /home/jgoolsby/api/lottery-api/scripts/Python/environments/apienv/bin/python /home/jgoolsby/api/lottery-api/scripts/Python/environments/apienv/scripts/US/Florida/Fantasy5.py[30d0 1 * * * /home/jgoolsby/api/lottery-api/scripts/Python/environments/apienv/bin/python /home/jgoolsby/api/lottery-api/scripts/Python/environments/apienv/scripts/US/Florida/cash4life.py[32d[36m# Pick 2/3/4/5 Scripts Run every hour[33d[39m(B[m0 * * * * /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/bin/python /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida/Pick2Day.py[34d0 * * * * /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/bin/python /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida/Pick2Eve.py[35d0 * * * * /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/bin/python /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida/Pick3Day.py[36d0 * * * * /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/bin/python /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida/Pick3Eve.py[37d0 * * * * /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/bin/python /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida/Pick4Day.py[38d0 * * * * /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/bin/python /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida/Pick4Eve.py[39d0 * * * * /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/bin/python /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida/Pick5Day.py[40d0 * * * * /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/bin/python /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida/Pick5Eve.py[41d0 * * * * /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/bin/python /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida/JackpotTriplePlay.py[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[59d[K[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h[27d[?25l[?12l[?25h[28d[?25l[?12l[?25h[29d[?25l[?12l[?25h[30d[?25l[?12l[?25h[31d[?25l[?12l[?25h[32d[?25l[?12l[?25h[33d[?25l[?12l[?25h[34d[?25l[?12l[?25h[35d[?25l[?12l[?25h[36d[?25l[?12l[?25h[37d[?25l[?12l[?25h[38d[?25l[?12l[?25h[39d[?25l[?12l[?25h[40d[?25l[?12l[?25h[41d[?25l[1;136H(B[0;7m*[236G(B[m[41;59r[41;1HM[1;61r[42;1H[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h0 * * * * /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/bin/python /home/jgoolsby/ssr-lottery/scripts/Python/environments/apienv/scripts/US/Florida/Pick5Eve.py[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h.py[K[?25l[?12l[?25h.py[K[?25l[?12l[?25h.py[K[?25l[?12l[?25h.py[K[?25l[?12l[?25hL.py[?25l[?12l[?25ho.py[?25l[?12l[?25ht.py[?25l[?12l[?25htt.py[?25l[?12l[?25ho.py[?25l[60;19H            [37G           [55G     (B[0;7mM-D(B[m DOS Format         [60;91H           [109G          (B[0;7mM-A(B[m Append          [145G[33X[60;178H(B[0;7mM-B(B[m Backup File[K[61;2H(B[0;7mC(B[m Cancel[61;19H            [37G          [61;55H     (B[0;7mM-M(B[m Mac Format         [61;91H[28X[61;119H(B[0;7mM-P(B[m Prepend     [61;145H            [163G        [178G(B[0;7m^T(B[m Browse[K[59d(B[0;7mFile Name to Write: /tmp/crontab.scrUPe/crontab                                                                                                                                                                                              [59;48H(B[m[?12l[?25h[?25l[59;111H[1K (B[0;7m[ Writing... ](B[m[K[1;136H(B[0;7m [236G(B[m[59;110H(B[0;7m[ Wrote 41 lines ](B[m[60;19H(B[0;7m^O(B[m Write Out[37G(B[0;7m^W(B[m Where Is[55G(B[0;7m^K(B[m Cut            (B[0;7m^T(B[m Execute[60;91H(B[0;7m^C(B[m Location[109G(B[0;7mM-U(B[m Undo          (B[0;7mM-A(B[m Set Mark[145G(B[0;7mM-](B[m To Bracket    (B[0;7mM-Q(B[m Previous      (B[0;7m^B(B[m Back     [199G(B[0;7m^◂(B[m Prev Word[217G(B[0;7m^A(B[m Home[61;2H(B[0;7mX(B[m Exit  [61;19H(B[0;7m^R(B[m Read File[37G(B[0;7m^\(B[m Replace[61;55H(B[0;7m^U(B[m Paste          (B[0;7m^J(B[m Justify[61;91H(B[0;7m^/(B[m Go To Line     (B[0;7mM-E(B[m Redo          (B[0;7mM-6(B[m Copy[61;145H(B[0;7m^Q(B[m Where Was[163G(B[0;7mM-W(B[m Next[178G   (B[0;7m^F(B[m Forward[61;199H(B[0;7m^▸(B[m Next Word[217G(B[0;7m^E(B[m End[?12l[?25h[41;174H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;136H(B[0;7m*[236G(B[m[?12l[?25h[41;168H[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[?12l[?25h[1P[?25l[60;19H            [37G           [55G     (B[0;7mM-D(B[m DOS Format         [60;91H           [109G          (B[0;7mM-A(B[m Append          [145G[33X[60;178H(B[0;7mM-B(B[m Backup File[K[61;2H(B[0;7mC(B[m Cancel[61;19H            [37G          [61;55H     (B[0;7mM-M(B[m Mac Format         [61;91H[28X[61;119H(B[0;7mM-P(B[m Prepend     [61;145H            [163G        [178G(B[0;7m^T(B[m Browse[K[59d(B[0;7mFile Name to Write: /tmp/crontab.scrUPe/crontab                                                                                                                                                    

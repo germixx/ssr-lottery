@@ -1,0 +1,11 @@
+CREATE TABLE megaMillions(
+	id int primary key auto_increment,
+    date datetime,
+    sequence varchar( 25) not null,
+    firstNum varchar(3) not null,
+    secondNum varchar(3) not null,
+    thirdNum varchar(3) not null,
+    fourthNum varchar(3) not null,
+    fifthNum varchar(3) not null,
+    megaBall varchar(3) not null
+);

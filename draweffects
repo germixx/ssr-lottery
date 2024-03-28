@@ -1,0 +1,363 @@
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (net.js:1310:16)
+    at listenInCluster (net.js:1358:12)
+    at doListen (net.js:1495:7)
+    at processTicksAndRejections (internal/process/task_queues.js:85:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}

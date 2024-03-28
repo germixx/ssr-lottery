@@ -1,0 +1,11 @@
+CREATE TABLE FLFantasy5 (
+    id INT AUTO_INCREMENT primary key,
+    date DATETIME not null,
+    sequence varchar(30),
+    n1 VARCHAR(10),
+    n2 VARCHAR(10),
+    n3 VARCHAR(10),
+    n4 VARCHAR(10), 
+    n5 VARCHAR(10),
+    jackpot VARCHAR(15)
+)
